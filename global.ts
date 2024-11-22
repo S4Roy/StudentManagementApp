@@ -263,3 +263,42 @@ export function dayDifference(date: Date) {
     const dayGap = moment().diff(createdDate, 'days');
     return dayGap
 }
+NODE_ENV=dev
+NODE_PORT=5000
+API_KEY=Ip2A4a02I1r1I9dE1iSnA0S6aB1tE5WS
+
+MYSQL_HOST=localhost
+MYSQL_PORT=3306
+MYSQL_DATABASE=air_india_sats
+MYSQL_USERNAME=aisats_superadmin
+MYSQL_PASSWORD=QMyo._k83/LwRk*6
+PASSWORD_SALT_ROUND=12
+DIALECT=mysql
+
+ACCESS_TOKEN_SECRET=random
+ACCESS_TOKEN_EXPIRED=86400
+
+SMTP_AUTH_EMAIL=
+SMTP_AUTH_PASSWORD=
+SMTP_HOST=
+SMTP_FROM_EMAIL=
+SMTP_PORT=587
+SMTP_SECURE=no
+
+S3_BUCKET_NAME=
+S3_ACCESS_KEY=
+S3_SECRET_KEY=
+S3_REGION=
+S3_BUCKET_URL=
+AWS_CDN_URL=
+
+DEFAULT_LANGUAGE=en
+maxFileUploadSize=20 #MB
+
+
+siteUrl=
+adminSiteUrl=
+PROJECT_NAME=AirIndiaSats
+
+SWAGGER_API_USER=swAirIndiaSats
+SWAGGER_API_PASSWORD=swAirIndiasatS
